@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">TrakTv</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+
+
+
+    <string name="title">title</string>
+    <string name="year">year</string>
+    <string name="tagline">tagline</string>
+    <string name="overview">overview</string>
+    <string name="runtime">runtime</string>
+    <string name="trailer">trailer</string>
+    <string name="rating">rating</string>
+    <string name="homepage">homepage</string>
+    <string name="images">images</string>
+    <string name="thumb">thumb</string>
+    <string name="ids">ids</string>
+    <string name="imdb">imdb</string>
+    <string name="tmdb">tmdb</string>
+    <string name="genres">genres</string>
+    <string name="trakt">trakt</string>
+    <string name="slug">slug</string>
+    <string name="poster">poster</string>
+    <string name="no_result">Could not load result. Check your internet.</string>
+    <string name="try_again">No Internet. Try Again</string>
+    <string name="genre_action">action</string>
+    <string name="genre_adventure">adventure</string>
+    <string name="genre_fantasy">fantasy</string>
+    <string name="genre_science_fiction">"science-fiction"</string>
+    <string name="genre_drama">drama</string>
+    <string name="genre_comedy">comedy</string>
+    <string name="genre_romance">romance</string>
+    <string name="rating_title">Rating : </string>
+
+
+    <string name="no_network">No Network found</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <string name="cancelled">cancelled</string>
+
+<string name="edit_text_search_hint">Enter the movie name</string>
+</resources>

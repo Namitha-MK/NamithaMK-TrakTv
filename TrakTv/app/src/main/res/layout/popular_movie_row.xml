@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/pageMarginVertical"
+    android:layout_marginLeft="@dimen/pageMarginHorizontal"
+    android:layout_marginRight="@dimen/pageMarginHorizontal"
+    android:layout_marginTop="@dimen/pageMarginVertical"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    app:cardPreventCornerOverlap="false"
+    app:contentPadding="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_row_banner"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher"
+                />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_row_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="Title"
+                        android:textColor="#000"
+                        android:textSize="18sp"/>
+
+
+
+
+                    <TextView
+                        android:id="@+id/tv_row_year"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="Year"
+                        android:textColor="#000"
+                        android:textSize="14sp"/>
+                    <TextView
+                        android:id="@+id/tv_row_rating"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="9.2"
+                        android:textColor="#ff0000"
+                        android:textSize="14sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="5dp"
+
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/action"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#ff9900"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="5dp"
+                        android:text="Action"
+                        android:textColor="#fff"
+                        android:textSize="12sp"
+                        android:visibility="gone"/>
+                    <TextView
+                        android:id="@+id/comedy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#ff9900"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="5dp"
+                        android:text="Comedy"
+                        android:textColor="#fff"
+                        android:textSize="12sp"
+                        android:visibility="gone"
+                        />
+                    <TextView
+                        android:id="@+id/romance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="2dp"
+                        android:background="#ff9900"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="5dp"
+                        android:text="Romance"
+                        android:textColor="#fff"
+                        android:textSize="12sp"
+                        android:visibility="gone"/>
+                    <TextView
+                        android:id="@+id/drama"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#ff9900"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="5dp"
+                        android:text="Drama"
+                        android:textColor="#fff"
+                        android:textSize="12sp"
+                        android:visibility="gone"/>
+                    <TextView
+                        android:id="@+id/fantasy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#ff9900"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="5dp"
+                        android:text="Fantasy"
+                        android:textColor="#fff"
+                        android:textSize="12sp"
+                        android:visibility="gone"/>
+                    <TextView
+                        android:id="@+id/sience_fiction"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#ff9900"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="5dp"
+                        android:text="Si-Fi"
+                        android:textColor="#fff"
+                        android:textSize="12sp"
+                        android:visibility="gone"/>
+                    <TextView
+                        android:id="@+id/adventure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="#ff9900"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="5dp"
+                        android:text="Adventure"
+                        android:textColor="#fff"
+                        android:textSize="12sp"
+                        android:visibility="gone"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
